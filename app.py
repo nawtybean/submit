@@ -111,4 +111,5 @@ api.add_resource(Submit, '/submit')
 api.add_resource(Scores, '/scores')
 api.add_resource(Home, '/home')
 
-app.run(port=5000)
+# app.run(port=5000)
+app.run()
